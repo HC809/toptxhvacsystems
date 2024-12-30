@@ -1,6 +1,6 @@
 site:
-  name: AstroWind
-  site: 'https://astrowind.vercel.app'
+  name: Top TX HVAC Systems
+  site: 'https://toptxhvacsystems.vercel.app/'
   base: '/'
   trailingSlash: false
 
@@ -9,16 +9,17 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: AstroWind
-    template: '%s — AstroWind'
-  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+    default: Top TX HVAC Systems
+    template: '%s — Top TX HVAC Systems'
+  description: "\U0001F680       Specialists in installation, maintenance, and repair of heating, ventilation, and air conditioning systems 
+      for homes and businesses."
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: AstroWind
+    site_name: Top TX HVAC Systems
     images:
-      - url: '~/assets/images/default.png'
+      - url: '~/assets/images/logo-dark.svg'
         width: 1200
         height: 628
     type: website
