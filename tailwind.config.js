@@ -7,9 +7,24 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: 'var(--aw-color-primary)',
+        primary: {
+          DEFAULT: '#00205b',
+          '50': '#e9f8ff',
+          '100': '#ceeeff',
+          '200': '#a7e3ff',
+          '300': '#6bd5ff',
+          '400': '#26baff',
+          '500': '#0090ff',
+          '600': '#0066ff',
+          '700': '#004bff',
+          '800': '#003fe6',
+          '900': '#003cb3',
+          '950': '#00205b',
+        },
         secondary: 'var(--aw-color-secondary)',
-        accent: 'var(--aw-color-accent)',
+        accent: {
+          DEFAULT: '#bf0d3e',
+        },
         default: 'var(--aw-color-text-default)',
         muted: 'var(--aw-color-text-muted)',
       },
