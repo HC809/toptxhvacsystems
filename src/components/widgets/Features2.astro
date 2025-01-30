@@ -28,10 +28,12 @@ const {
     classes={{
       container: 'gap-4 md:gap-6',
       panel:
-        'rounded-lg shadow-[0_4px_30px_rgba(0,0,0,0.1)] dark:shadow-[0_4px_30px_rgba(0,0,0,0.1)] backdrop-blur border border-[#ffffff29] bg-white dark:bg-slate-900 p-6',
-      // panel:
-      //   "text-center bg-page items-center md:text-left rtl:md:text-right md:items-start p-6 p-6 rounded-md shadow-xl dark:shadow-none dark:border dark:border-slate-800",
-      icon: 'w-12 h-12 mb-6 text-primary',
+        'rounded-lg shadow-[0_4px_30px_rgba(0,0,0,0.1)] dark:shadow-[0_4px_30px_rgba(0,0,0,0.1)] backdrop-blur border border-[#ffffff29] bg-white dark:bg-slate-900 p-6 text-center flex flex-col items-center justify-center',
+      // Ajustamos el estilo del icono para el modo claro y oscuro
+      icon: 'w-12 h-12 mb-6 text-primary dark:text-white mx-auto',
+      title: 'text-xl font-bold mb-3 text-center dark:text-white',
+      description: 'text-muted dark:text-gray-400 text-center mb-4',
+      callToAction: 'w-full flex justify-center',
       ...((classes?.items as Record<string, never>) ?? {}),
     }}
   />
